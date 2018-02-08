@@ -1,0 +1,27 @@
+@import "tkuiVariables";
+
+// 字体定义
+@mixin font-hei {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+//颜色
+$white: #fff;
+$black: #000;
+
+//按钮圆角
+$buttonRadius: 2px;
+
+// 页面左右边距
+$pageGutter: 15px;
+
+//卡片边距
+$cardPadding:15px;
+
+//通用边距
+$commonPadding: 15px;
+$cardBackgroundColor: #fff;
+$navHeight: 44px;
+$navBackgroundColor: #f9f9f9;
+$AuxiliaryfontSize: 14px;
+$fontSizeMini: 12px;
+$seafoam-blue: #69c6d5;

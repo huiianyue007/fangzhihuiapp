@@ -1,0 +1,32 @@
+@import "./tkuiVariables.scss";
+@import './_variables.scss';
+@import './_reset.scss';
+@import './base.scss';
+@import '../../node_modules/vue-tkui/src/sass/all.scss';
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+html,body,#__nuxt{
+  height: 100%;
+}
+.box>.main-content,
+.main-content>.box{
+  height: 100%;
+}
+.headerImage {
+  width: 22px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+
+

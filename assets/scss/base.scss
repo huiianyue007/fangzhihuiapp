@@ -1,0 +1,136 @@
+@import "./_variables.scss";
+$pageGutter: 15px;
+$cardPadding:15px;
+$cardBackgroundColor: #fff;
+$commonPadding: 15px;
+$navHeight: 44px;
+$navBackgroundColor: #f9f9f9;
+.btn-mid {
+  display: inline-block;
+  width: $button-min-width;
+  height: $button-height;
+  padding: $button-padding;
+  font-size: $button-font-size;
+  vertical-align: middle;
+}
+.btn-small {
+  display: inline-block;
+  width: $button-min-width-small;
+  height: $button-height-small;
+  line-height: $button-height-small;
+  padding: 0 10px;
+  text-align: center;
+  font-size: $button-font-size-small;
+  border-radius: $button-border-radius;
+  vertical-align: middle;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+  height: $button-height-big;
+  line-height: $button-height-big;
+  border-radius: $button-border-radius;
+  text-align: center;
+}
+//图标按钮icon尺寸
+.btn-icon-small {
+  width: $button-icon-size-small;
+  height: $button-icon-size-small;
+}
+.btn-icon-mid {
+  width: $button-icon-size;
+  height: $button-icon-size;
+}
+.btn-icon-lg {
+  width: $button-icon-size-big;
+  height: $button-icon-size-big;
+}
+//页面边距样式
+.container-padding {
+  padding: 0 $pageGutter;
+}
+.card-default {
+  padding: $cardPadding;
+  background: $cardBackgroundColor;
+}
+//上下边距
+.common-padding {
+  padding:$commonPadding 0;
+}
+//分割线
+.cut-line {
+  display: block;
+  margin: 0 auto;
+  width: 335px;
+  height: 1px;
+  background-color: #eeeeee;
+}
+//导航栏
+.nav-default {
+  height: $navHeight;
+  background-color: $navBackgroundColor;
+}
+//水平垂直都居中FLEX
+.main-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//下拉菜单房屋详情页，
+.mytogglebox {
+  padding: 30px 15px;
+  .item {
+    overflow: hidden;
+    padding: 7px 0;
+    .left {
+      float: left;
+      color: #333;
+      font-size: $font-size;
+      font-weight: 600;
+    }
+    .right {
+      float: right;
+      font-size: $font-size;
+      color: $black;
+    }
+  }
+}
+//介绍页 分页器样式
+#jieshaoswiper {
+  bottom: 7%;
+  .swiper-pagination-bullet {
+    background-color: #28a3b3;
+  }
+}
+.text-center{
+  text-align:center
+}
+.cursor{
+  cursor:pointer;
+}
+.tkui-button.block{
+  margin:0;
+  padding:0;
+ }
+.marginhide {
+  margin: 0 !important;
+}
+.overhide{
+  overflow:hidden;
+}
+.text-hidden{
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.gutter{
+  padding: $gutter;
+  box-sizing: border-box;
+}
+.tk-link{
+  color: #333;
+  &:visited{
+    color:#333;
+  }
+  display:block;
+}
